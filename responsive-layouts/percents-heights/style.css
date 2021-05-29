@@ -1,0 +1,27 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.parent {
+  background-color: #23424a;
+  padding: 50px;
+
+  margin: 0 auto;
+  width: 80%;
+}
+
+.child {
+  background-color: #38cfd9;
+  width: 50%;
+  height: 250px;
+}
